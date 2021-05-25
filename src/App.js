@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import CardButton from './CardButton';
+import Menu from './Menu';
+
+import MainPage from './components/MainPage.js'
+import SlideDrawer from './SlideDrawer/SlideDrawer.js'
+import Backdrop from './SlideDrawer/Backdrop.js'
+export default class App extends Component {
+  state = { drawerOpen: false }
+  drawerToggleClickHandler = () => {
+      this.setState({
+        drawerOpen: !this.state.drawerOpen
+      })
+  }
+  render() {
+    let backdrop;
+    if(this.state.drawerOpen){
+      backdrop = <Backdrop toggle={this.drawerToggleClickHandler}/>;
+     }
+     console.log(this.state)
+    return (
+      <div>
+        <Menu />
+        < SlideDrawer show={this.state.drawerOpen} toggle={this.drawerToggleClickHandler}/>
+        { backdrop }
+        < MainPage toggle={this.drawerToggleClickHandler}/>  
+        {/* button k category behalf filter cards */}
+        <CardButton />
+
+
+
+      </div>
+    )
+  }
 }
-
-export default App;
