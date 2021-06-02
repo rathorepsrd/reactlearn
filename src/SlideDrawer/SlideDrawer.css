@@ -21,3 +21,68 @@ body {
 .side-drawer.open {
   transform: translateX(0);
 }
+
+.fadeBox{
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+.drawerCloseButton{
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+
+
+.divStyle { 
+  /* display: block; */
+  top: 50px; 
+  left: 0px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.divS{ 
+  /* display: block; */
+
+  top: 50px; 
+  left: 0px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: orange;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.divT{ 
+  display: block;
+  top: 50px; 
+  left: 0px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: green;
+  border-radius: 10px;
+  padding: 10px;
+};
+
+.buttonStyle {
+  display: block;
+  /* position: absolute;
+  bottom : 120px; */
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+  margin-top: 20px;
+  background: blue;
+};  
+
+

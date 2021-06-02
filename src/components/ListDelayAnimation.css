@@ -1,0 +1,38 @@
+.container{
+  max-width: 2140px;
+}
+.row{
+  text-align: center;
+}
+
+.fadeBox{
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+.fadeBox-enter {
+  opacity: 0.01;
+}
+
+.fadeBox-enter.fadeBox-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fadeBox-leave {
+  opacity: 1;
+}
+
+.fadeBox-leave.fadeBox-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.fadeBox-appear {
+  opacity: 0.01;
+}
+
+.fadeBox-appear.fadeBox-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}

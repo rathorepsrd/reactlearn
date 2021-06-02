@@ -86,12 +86,12 @@ export default class App extends Component {
           ):(
             <Cards imgs = {this.state.imgs}/>
         )}
-        <div className="photo-source">
+        {/* <div className="photo-source">
           All photos are from &nbsp;
           <a href="https://www.pexels.com" target="_blank">
              www.pexels.com
           </a>
-        </div>
+        </div> */}
  
       </>
     );

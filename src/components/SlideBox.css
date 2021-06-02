@@ -1,0 +1,146 @@
+
+.background {
+  display: flex;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  position: relative;
+  overflow: hidden;
+}
+
+.mover {
+   position: absolute;
+  /* left: 0;
+  top: 0; */
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  transition: transform .3s ease;
+}
+.mover1 {
+  position: absolute;
+  /* bottom: 0;
+  left: 0px; */
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transition: transform 1.8s ease;
+}
+.mover2 {
+  position: absolute;
+  /* bottom: 0;
+  left: 0px; */
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: transform 1.8s ease;
+}
+
+/* 
+.mover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  /* border-radius: 20px; /
+  background-color: tomato;
+  transition: transform 1s ease;
+}
+
+ .mover1 {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transition: transform 15s ease;
+}
+
+ .mover2 {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+
+  background-color: blue;
+  transition: transform 50s ease;
+}  
+
+.background {
+  display: flex;
+}
+
+.moveBox {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttonStyle  {
+  display: block;
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+
+}; */
+
+
+
+
+/* 
+.mover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  /* border-radius: 20px; /
+  background-color: tomato;
+  transition: transform 1s ease;
+}
+
+ .mover1 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  /* border-radius: 20px; /
+  background-color: green;
+  transition: transform 3s ease;
+}
+
+.mover2 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  /* border-radius: 20px; /
+  background-color: blue;
+  transition: transform 5s ease;
+} 
+
+.background {
+  display: flex;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  position: relative;
+  /* border-radius: 20px; /
+  /* margin-right: 4px; /
+  overflow: hidden;
+} */
+
