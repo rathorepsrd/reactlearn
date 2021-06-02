@@ -39,13 +39,13 @@ export default class App extends Component {
  
         < MainPage toggle={this.drawerToggleClickHandler}/>  
         {/* button k category behalf filter cards */}
-        {/* <CardButton /> */}
+        <CardButton />
 
         {/* ye niche code app pe chl rha yha nhi chal rha h
          */}
         {/* <ReactSimpleAnimate /> */}
-        {/* <br /><br />
-        <ReactSimpleAnimate /> */}
+        <br /><br />
+        <ReactSimpleAnimate />
        
       </div>
     )
